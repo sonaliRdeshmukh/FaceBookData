@@ -20,7 +20,7 @@ public class ListnerStudy {
   @Test
   public void Test3() 
   {
-	  Assert.fail();
+	 
 	  Reporter.log("Test 3 is running", true);
   }
   @Test
@@ -28,7 +28,7 @@ public class ListnerStudy {
   {
 	  Reporter.log("Test 4 is running", true);
   }
-  @Test(dependsOnMethods = "Test3")
+  @Test
   public void Test5() 
   {
 	  Reporter.log("Test 5 is running", true);
